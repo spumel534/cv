@@ -1,0 +1,15 @@
+body {
+    margin:0px
+}
+nav {
+    background-color: firebrick;
+    border-color: black;
+    display: flex;
+    justify-content: right;
+    
+}
+footer {
+    background-color: black;
+    border-color: firebrick;
+    
+}
