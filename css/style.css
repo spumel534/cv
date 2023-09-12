@@ -179,8 +179,8 @@ ul {
     flex-direction: column;
     margin: auto;
     width: 500px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     font-family: 'Montserrat', sans-serif;
 }
 
