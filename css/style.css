@@ -39,14 +39,20 @@ footer a:hover {
     width: 100%;
 }
 
-br {
-   height: 20%;
+hr {
+   height: 30px;
+   background-color: black;
+   margin: auto;
+}
+
+dd {
+    padding-bottom: 5%;
 }
 
 
-
 .title {
-    padding-top: 70px;
+    font-family: 'Playfair Display', serif;
+    padding-top: 100px;
     color: white;
     font-size: xxx-large;
     text-shadow: 
@@ -74,24 +80,28 @@ br {
     gap: 5%;
     padding-left: 7%;
     padding-right: 7%; 
+    font-family: 'Montserrat', sans-serif;
 }
 
-.languages_card {
+.card {
     background-color: whitesmoke;
     border: 2px solid black;
+    height: max-content;
+}
+
+.card img {
+    padding:20px;
 }
 
 .leadership_card {
-    background-color: whitesmoke;
-    border: 2px solid black;
-}
-
-.skills_card {
-    background-color: whitesmoke;
-    border: 2px solid black;
+    padding-right: 8%;
 }
 
 .info_card {
+    background-image: url("../images/buttons.png");
+    background-repeat: no-repeat;
+    background-size:  30%;
+    background-position: top right;
     background-color: whitesmoke;
     width:30%;
     padding-left: 1%;
@@ -102,6 +112,10 @@ br {
 }
 
 .about_bar {
+    background-image: url("../images/buttons.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: top right;
     width:fit-content;
     padding-left: 1%;
     padding-right: 1%;
@@ -118,4 +132,62 @@ br {
 .link {
     color: blue;
     text-decoration: none;
+}
+
+.link :hover{
+    text-transform:uppercase;
+    color: firebrick;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+ul {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.top_left_image {
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    left: 5%;
+    border: 4px solid whitesmoke;
+}
+
+.top_right_image {
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 5%;
+    background-color: whitesmoke;
+}
+
+.taskbar {
+    margin: auto;
+    background-image: url("../images/taskbar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.one-col {
+    border: 5px solid darkslategray;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button_group {
+    background-image: url("../images/buttons.png");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: top right;
+    background-color: whitesmoke;
 }

@@ -2,14 +2,20 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">  
     </head>
 <nav>
     <a href="contact.html"><p>Contact Steven</p></a>
 </nav>
 <section class="intro">
+    <img src="images/top-left.jpg" class="top_left_image">
+    <img src="images/top-right.png" class="top_right_image">
     <h1 class = title>Steven P. Pumel</h1>
     <h2 class = title>4th year Computer Science Major at UGA</h2>
 </section>
+<hr>
 <section class="main">
     <br>
     <br>
@@ -26,7 +32,8 @@
     </div>
     <br><br>
     <div class="three-col">
-        <div class="languages_card">
+        <div class="card, button_group">
+            <img src="images/icons8-visual-studio-150.png" width="100px" class="icon">
             <h3>Languages</h3>
             <ul>
                 <li>Python</li>
@@ -37,9 +44,10 @@
                 <li>C#</li>
             </ul>
         </div>
-        <div class="leadership_card">
+        <div class="leadership_card, card, button_group">
+            <img src="images/icons8-leadership-100.png" width="100px" class="icon">
             <h3>Leadership and Experience</h3>
-            <dl>
+            <dl class="leadership_list">
                 <dt>Summer 2021</dt>
                 <a href="https://www.linkedin.com/company/402d-sweg" class="link"><dd>Department Of Defense Internship</dd></a>
                 <dt>Summer 2022</dt>
@@ -51,7 +59,8 @@
                 <!-- add the link to the 402nd Sweg Page and UGA DAE page, use absolute path-->
             </dl>
         </div>
-        <div class="skills_card">
+        <div class="card, button_group">
+            <img src="images/icons8-programming-100.png" width="100px" class="icon">
             <h3>Skills</h3>
             <dl>
                 <dt>Back-end Development</dt>
@@ -66,6 +75,7 @@
     <br>
     <br>
 </section>
+<hr class="taskbar">
 <footer>
     <a href="contact.html"><p>©Steven Pumel</p></a>
 </footer>
